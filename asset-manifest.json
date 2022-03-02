@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/db.json/static/css/main.6f826235.css",
+    "main.js": "/db.json/static/js/main.ba6cccd5.js",
+    "static/js/787.799490e8.chunk.js": "/db.json/static/js/787.799490e8.chunk.js",
+    "static/media/news-cycle.regular.ttf": "/db.json/static/media/news-cycle.regular.b0579f4f968c5d06aad7.ttf",
+    "index.html": "/db.json/index.html",
+    "main.6f826235.css.map": "/db.json/static/css/main.6f826235.css.map",
+    "main.ba6cccd5.js.map": "/db.json/static/js/main.ba6cccd5.js.map",
+    "787.799490e8.chunk.js.map": "/db.json/static/js/787.799490e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f826235.css",
+    "static/js/main.ba6cccd5.js"
+  ]
+}
