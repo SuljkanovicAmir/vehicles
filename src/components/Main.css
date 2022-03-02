@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'News cycle';
+  src: url('./news-cycle.regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.main-div  {
+    min-height: 100vh;
+    padding-bottom: 150px;
+    font-family: 'News cycle';
+}
+
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+thead th {
+    font-size: 1.3em;
+    font-family: 'News cycle';
+    border: 1px solid black;
+    width: 230px;
+    height: 70px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+ 
+.table-container td {
+    font-size: 1.1em;
+    font-family: 'News cycle', sans-serif;
+    font-weight: 500;
+    padding: 15px 10px;
+    text-align: center;
+}
+.tables {
+    padding-right: 15px;
+}
+table {
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    word-break: break-word;
+  }
+ 
+
+  table td, table th {
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+  }
+  thead tr:first-child th {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  thead tr:last-child td {
+    border-bottom: 0;
+  }
+  thead tr td:first-child,
+  thead tr th:first-child {
+    border-left: 0;
+  }
+  thead tr td:last-child,
+  thead tr th:last-child {
+    border-right: 0;
+  }
+
+
+form {
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   margin-top: 40px;
+}
+form input,
+form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: flex-end;
+    max-height: 31px;
+}
+
+
+.selection select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+.paginations {
+  margin-top: 10px;
+  display: flex;
+ 
+}
+.paginations button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.paginations p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-div  {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   align-items: center;
+   margin: 10px 60px 0 60px;
+
+}
+
+.show {
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+}
+.show button {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: white;
+  max-height: 31px;
+}

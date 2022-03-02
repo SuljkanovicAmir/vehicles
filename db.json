@@ -1,0 +1,95 @@
+{ 
+  "cars": [
+  {
+      "id":1,
+      "Name":"BMW Z4",
+      "Type":"Coupe",
+      "Price": 55,
+      "Status": "Available"
+  },
+  {
+      "id":2,
+      "Name":"Mercedes GLE",
+      "Type":"SUV",
+      "Price": 100,
+      "Status": "Available"
+  },
+  {
+      "id":3,
+      "Name":"Audi A3",
+      "Type":"Sedan",
+      "Price": 35,
+      "Status": "Available"
+  },
+  {
+      "id":4,
+      "Name":"Golf 5",
+      "Type":"Sedan",
+      "Price": 50,
+      "Status": "Unavailable"
+  },
+  {
+      "id":5,
+      "Name":"Skoda Octavia",
+      "Type":"Sedan",
+      "Price": 30,
+      "Status": "Available"
+  },
+  {
+      "id":6,
+      "Name":"BMW M3",
+      "Type":"Coupe",
+      "Price": 140,
+      "Status": "Unavailable"
+  },
+  {
+      "id":7,
+      "Name":"Mercedes C100",
+      "Type":"Sedan",
+      "Price": 125,
+      "Status": "Available"
+  },
+  {
+    "id":8,
+    "Name":"Seat Ibiza",
+    "Type":"Sedan",
+    "Price": 20,
+    "Status": "Unavailable"
+  },
+  {
+    "id":9,
+    "Name":"Citroen C4",
+    "Type":"Sedan",
+    "Price": 25,
+    "Status": "Unavailable"
+   },
+   {
+    "id":10,
+    "Name":"Mercedes-Benz SLK 200",
+    "Type":"Coupe",
+    "Price": 155,
+    "Status": "Available"
+   },
+   {
+    "id":11,
+    "Name":"Mazda MX5",
+    "Type":"Coupe",
+    "Price": 45,
+    "Status": "Available"
+   },
+   {
+    "id":12,
+    "Name":"Mitsubishi L 200",
+    "Type":"Pickup",
+    "Price": 58,
+    "Status": "Unavailable"
+   },
+   {
+    "id":13,
+    "Name":"Nissan Navara",
+    "Type":"Pickup",
+    "Price": 60,
+    "Status": "Unavailable"
+   }
+]
+}
