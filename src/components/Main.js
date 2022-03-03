@@ -23,7 +23,7 @@ export const Main = () => {
         case 'search': 
             setOperation(optType);
             setSortValue("");
-            return await axios.get(`http://localhost:4000/cars?q=${value}&_start=${start}&_end=${end}`)
+            return await axios.get(`https://my-json-server.typicode.com/SuljkanovicAmir/db.json/cars?q=${value}&_start=${start}&_end=${end}`)
                 .then((response) => { 
                 setData(response.data);
                 setCurrentPage(currentPage + increase)
@@ -32,7 +32,7 @@ export const Main = () => {
         case 'sort':
             setOperation(optType);
             setSortFilterValue(filterOrSortValue);
-            return await axios.get(`http://localhost:4000/cars?_sort=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`)
+            return await axios.get(`https://my-json-server.typicode.com/SuljkanovicAmir/db.json/cars?_sort=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`)
                 .then((response) => { 
                 setData(response.data)
                 setCurrentPage(currentPage + increase)
@@ -41,7 +41,8 @@ export const Main = () => {
         case 'filter':
             setOperation(optType);
             setSortFilterValue(filterOrSortValue);
-            return await axios.get(`http://localhost:4000/cars?Status=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`)
+            return await axios
+                .get(`https://my-json-server.typicode.com/SuljkanovicAmir/db.json/cars?Status=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`)
                 .then((response) => { 
                 setData(response.data)
                 setCurrentPage(currentPage + increase)
@@ -49,7 +50,7 @@ export const Main = () => {
             .catch((err) => console.log(err));
         default:
             return await axios
-            .get(`http://localhost:4000/cars?_start=${start}&_end=${end}`)
+            .get(`https://my-json-server.typicode.com/SuljkanovicAmir/db.json/cars?_start=${start}&_end=${end}`)
             .then((response) => { 
                 setData(response.data)
                 setCurrentPage(currentPage + increase)
