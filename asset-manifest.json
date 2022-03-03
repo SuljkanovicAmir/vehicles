@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SuljkanovicAmir/vehicles.git/static/css/main.47a811ed.css",
-    "main.js": "/SuljkanovicAmir/vehicles.git/static/js/main.5a6086e2.js",
-    "static/js/787.799490e8.chunk.js": "/SuljkanovicAmir/vehicles.git/static/js/787.799490e8.chunk.js",
-    "static/media/news-cycle.regular.ttf": "/SuljkanovicAmir/vehicles.git/static/media/news-cycle.regular.b0579f4f968c5d06aad7.ttf",
-    "index.html": "/SuljkanovicAmir/vehicles.git/index.html",
-    "main.47a811ed.css.map": "/SuljkanovicAmir/vehicles.git/static/css/main.47a811ed.css.map",
-    "main.5a6086e2.js.map": "/SuljkanovicAmir/vehicles.git/static/js/main.5a6086e2.js.map",
-    "787.799490e8.chunk.js.map": "/SuljkanovicAmir/vehicles.git/static/js/787.799490e8.chunk.js.map"
+    "main.css": "/vehicles/static/css/main.9bb7de8d.css",
+    "main.js": "/vehicles/static/js/main.48c30e59.js",
+    "static/js/787.799490e8.chunk.js": "/vehicles/static/js/787.799490e8.chunk.js",
+    "static/media/news-cycle.regular.ttf": "/vehicles/static/media/news-cycle.regular.b0579f4f968c5d06aad7.ttf",
+    "index.html": "/vehicles/index.html",
+    "main.9bb7de8d.css.map": "/vehicles/static/css/main.9bb7de8d.css.map",
+    "main.48c30e59.js.map": "/vehicles/static/js/main.48c30e59.js.map",
+    "787.799490e8.chunk.js.map": "/vehicles/static/js/787.799490e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a811ed.css",
-    "static/js/main.5a6086e2.js"
+    "static/css/main.9bb7de8d.css",
+    "static/js/main.48c30e59.js"
   ]
 }
